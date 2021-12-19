@@ -439,7 +439,7 @@ timestamp = speed();
 				latensi = speed() - timestamp
                   	teks =
 `┏━➤ *INFO BOT* 
-*┃┃* Creator Bot : Zero YT7
+*┃┃* Creator Bot :
 *┃┃* Nama Owner : ${ownername}
 *┃┃* Nama Bot : ${botname}
 *┃┃* Prefix : Multi Prefix
@@ -450,7 +450,7 @@ timestamp = speed();
 *┃┗━━━━━━━━*
 *┃◗ Thanks To Allah S.W.T*
 *┃◗ Thank To Ortu*
-*┃◗ Thank To Zero YT7 (Creator)*
+*┃◗ Thank To  (Creator)*
 *┃◗ Thanks To All Subscriberku*
 *┗━━━━━━━ •*`
                   but = [
@@ -832,7 +832,7 @@ let inilist = []
 for (let i of ownerNumber) {
 let vname = zeroyt7.contacts[i] != undefined ? zeroyt7.contacts[i].vname || zeroyt7.contacts[i].notify : undefined
 inilist.push({
-"displayName": 'ZeroYT7',
+"displayName": 'tio',
 "vcard": 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n'
 + `FN:${ownername}\n`
@@ -907,11 +907,11 @@ case 'sc':
 teks = 
 `*Bot Ini Menggunakan Sourcecode*
 ╭─────────────────────
-├ Sc Ori = https://github.com/Zero-YT7/Base-ZeroYT7
-├ Sc Full Fitur = https://youtube.com/ZeroYT7
+├ Sc Ori = 
+├ Sc Full Fitur = 
 ├─────────────────────
-├ Creator Base = Zero YT7
-├ Creator Sc = Zero YT7
+├ Creator Base = 
+├ Creator Sc = 
 └─────────────────────`
 zeroyt7.sendMessage(from, teks, text, {quoted: ftrol})
 break
